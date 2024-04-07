@@ -24,7 +24,7 @@ public class tripletsum {
     static boolean twoSum(int rem_sum,int start,int end,int[] nums){
         HashMap<Integer ,Integer> map=new HashMap<>();
         for (int i=start;i<=end;i++){
-            map.put(nums[i],i);
+                map.put(nums[i],i);
         }
         for (int i=start;i<end;i++) {
             int rem = rem_sum - nums[i]; //9-2 =7 // get means the value get

@@ -13,7 +13,7 @@ public class nextpermutation {
         int n=nums.length;
         int k=n-2;
         for (int i=n-1;i>0;i--){
-            if (nums[i-1]>=nums[i]){
+            if (nums[i-1]>=nums[i]){ // 2,4
                 k--;
             }
             else {
